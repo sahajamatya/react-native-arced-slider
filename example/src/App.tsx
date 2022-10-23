@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import RNArcedSliderModule, { Counter } from 'react-native-arced-slider'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(RNArcedSliderModule)
   })
 
   return <Counter />
